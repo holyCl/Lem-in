@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ivoloshi/development/projects/Lem-in/inc/Lemin.h
+../libftprintf/inc/ft_printf.h
+/Users/ivoloshi/development/projects/Lem-in/libftprintf/inc/ft_printf.h
+
+/Users/ivoloshi/development/projects/Lem-in/libftprintf/inc/ft_printf.h
+stdarg.h
+-
+stdint.h
+-
+stdio.h
+-
+wchar.h
+-
+libft.h
+/Users/ivoloshi/development/projects/Lem-in/libftprintf/inc/libft.h
+
+/Users/ivoloshi/development/projects/Lem-in/libftprintf/inc/libft.h
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/Users/ivoloshi/development/projects/Lem-in/src/main.c
+../inc/Lemin.h
+/Users/ivoloshi/development/projects/Lem-in/inc/Lemin.h
+fcntl.h
+-
+

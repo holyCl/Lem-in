@@ -1,0 +1,13 @@
+3
+##start
+a 1 0
+##end
+e 5 0
+b 9 0
+c 10 0
+d 3 81
+a-b
+a-c
+a-d
+b-c
+c-e
