@@ -38,7 +38,6 @@ t_room *get_room1(t_way **room)
         ft_memdel((void **)&way);
         return (temp);
     }
-
     return(NULL);
 }
 
