@@ -82,6 +82,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/Lem_in.dir/libftprintf/src/unsignedconv.c.o"
   "CMakeFiles/Lem_in.dir/libftprintf/src/utf_str.c.o"
   "CMakeFiles/Lem_in.dir/src/main.c.o"
+  "CMakeFiles/Lem_in.dir/src/add_links.c.o"
+  "CMakeFiles/Lem_in.dir/src/add_rooms.c.o"
+  "CMakeFiles/Lem_in.dir/src/create_node.c.o"
+  "CMakeFiles/Lem_in.dir/src/parse.c.o"
+  "CMakeFiles/Lem_in.dir/src/tools.c.o"
+  "CMakeFiles/Lem_in.dir/src/valid.c.o"
+  "CMakeFiles/Lem_in.dir/src/error_manager.c.o"
   "Lem_in.pdb"
   "Lem_in"
 )

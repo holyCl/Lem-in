@@ -1,13 +1,8 @@
-3
+10
 ##start
-a 1 0
+1 1 1
+#cooment
+3 3 3
 ##end
-e 5 0
-b 9 0
-c 10 0
-d 3 81
-a-b
-a-c
-a-d
-b-c
-c-e
+0 0 0
+1-0

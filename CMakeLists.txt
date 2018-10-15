@@ -90,4 +90,12 @@ add_executable(Lem_in
         libftprintf/src/strings2.c
         libftprintf/src/unsignedconv.c
         libftprintf/src/utf_str.c
-        src/main.c)
+        src/main.c
+        src/add_links.c
+        src/add_rooms.c
+        src/create_node.c
+        src/parse.c
+        src/tools.c
+        src/valid.c
+        src/error_manager.c
+        )

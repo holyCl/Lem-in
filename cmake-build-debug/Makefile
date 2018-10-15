@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ivoloshi/development/projects/Lem-in
+CMAKE_SOURCE_DIR = "/Users/ivoloshi/development/projects/Lem-in copy"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ivoloshi/development/projects/Lem-in/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/ivoloshi/development/projects/Lem-in copy/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivoloshi/development/projects/Lem-in/cmake-build-debug/CMakeFiles /Users/ivoloshi/development/projects/Lem-in/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ivoloshi/development/projects/Lem-in copy/cmake-build-debug/CMakeFiles" "/Users/ivoloshi/development/projects/Lem-in copy/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ivoloshi/development/projects/Lem-in/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ivoloshi/development/projects/Lem-in copy/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -2337,6 +2337,114 @@ libftprintf/src/utf_str.c.s:
 	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/libftprintf/src/utf_str.c.s
 .PHONY : libftprintf/src/utf_str.c.s
 
+src/add_links.o: src/add_links.c.o
+
+.PHONY : src/add_links.o
+
+# target to build an object file
+src/add_links.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/add_links.c.o
+.PHONY : src/add_links.c.o
+
+src/add_links.i: src/add_links.c.i
+
+.PHONY : src/add_links.i
+
+# target to preprocess a source file
+src/add_links.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/add_links.c.i
+.PHONY : src/add_links.c.i
+
+src/add_links.s: src/add_links.c.s
+
+.PHONY : src/add_links.s
+
+# target to generate assembly for a file
+src/add_links.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/add_links.c.s
+.PHONY : src/add_links.c.s
+
+src/add_rooms.o: src/add_rooms.c.o
+
+.PHONY : src/add_rooms.o
+
+# target to build an object file
+src/add_rooms.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/add_rooms.c.o
+.PHONY : src/add_rooms.c.o
+
+src/add_rooms.i: src/add_rooms.c.i
+
+.PHONY : src/add_rooms.i
+
+# target to preprocess a source file
+src/add_rooms.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/add_rooms.c.i
+.PHONY : src/add_rooms.c.i
+
+src/add_rooms.s: src/add_rooms.c.s
+
+.PHONY : src/add_rooms.s
+
+# target to generate assembly for a file
+src/add_rooms.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/add_rooms.c.s
+.PHONY : src/add_rooms.c.s
+
+src/create_node.o: src/create_node.c.o
+
+.PHONY : src/create_node.o
+
+# target to build an object file
+src/create_node.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/create_node.c.o
+.PHONY : src/create_node.c.o
+
+src/create_node.i: src/create_node.c.i
+
+.PHONY : src/create_node.i
+
+# target to preprocess a source file
+src/create_node.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/create_node.c.i
+.PHONY : src/create_node.c.i
+
+src/create_node.s: src/create_node.c.s
+
+.PHONY : src/create_node.s
+
+# target to generate assembly for a file
+src/create_node.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/create_node.c.s
+.PHONY : src/create_node.c.s
+
+src/error_manager.o: src/error_manager.c.o
+
+.PHONY : src/error_manager.o
+
+# target to build an object file
+src/error_manager.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/error_manager.c.o
+.PHONY : src/error_manager.c.o
+
+src/error_manager.i: src/error_manager.c.i
+
+.PHONY : src/error_manager.i
+
+# target to preprocess a source file
+src/error_manager.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/error_manager.c.i
+.PHONY : src/error_manager.c.i
+
+src/error_manager.s: src/error_manager.c.s
+
+.PHONY : src/error_manager.s
+
+# target to generate assembly for a file
+src/error_manager.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/error_manager.c.s
+.PHONY : src/error_manager.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -2363,6 +2471,87 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/parse.o: src/parse.c.o
+
+.PHONY : src/parse.o
+
+# target to build an object file
+src/parse.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/parse.c.o
+.PHONY : src/parse.c.o
+
+src/parse.i: src/parse.c.i
+
+.PHONY : src/parse.i
+
+# target to preprocess a source file
+src/parse.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/parse.c.i
+.PHONY : src/parse.c.i
+
+src/parse.s: src/parse.c.s
+
+.PHONY : src/parse.s
+
+# target to generate assembly for a file
+src/parse.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/parse.c.s
+.PHONY : src/parse.c.s
+
+src/tools.o: src/tools.c.o
+
+.PHONY : src/tools.o
+
+# target to build an object file
+src/tools.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/tools.c.o
+.PHONY : src/tools.c.o
+
+src/tools.i: src/tools.c.i
+
+.PHONY : src/tools.i
+
+# target to preprocess a source file
+src/tools.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/tools.c.i
+.PHONY : src/tools.c.i
+
+src/tools.s: src/tools.c.s
+
+.PHONY : src/tools.s
+
+# target to generate assembly for a file
+src/tools.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/tools.c.s
+.PHONY : src/tools.c.s
+
+src/valid.o: src/valid.c.o
+
+.PHONY : src/valid.o
+
+# target to build an object file
+src/valid.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/valid.c.o
+.PHONY : src/valid.c.o
+
+src/valid.i: src/valid.c.i
+
+.PHONY : src/valid.i
+
+# target to preprocess a source file
+src/valid.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/valid.c.i
+.PHONY : src/valid.c.i
+
+src/valid.s: src/valid.c.s
+
+.PHONY : src/valid.s
+
+# target to generate assembly for a file
+src/valid.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/src/valid.c.s
+.PHONY : src/valid.c.s
 
 # Help Target
 help:
@@ -2619,9 +2808,30 @@ help:
 	@echo "... libftprintf/src/utf_str.o"
 	@echo "... libftprintf/src/utf_str.i"
 	@echo "... libftprintf/src/utf_str.s"
+	@echo "... src/add_links.o"
+	@echo "... src/add_links.i"
+	@echo "... src/add_links.s"
+	@echo "... src/add_rooms.o"
+	@echo "... src/add_rooms.i"
+	@echo "... src/add_rooms.s"
+	@echo "... src/create_node.o"
+	@echo "... src/create_node.i"
+	@echo "... src/create_node.s"
+	@echo "... src/error_manager.o"
+	@echo "... src/error_manager.i"
+	@echo "... src/error_manager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parse.o"
+	@echo "... src/parse.i"
+	@echo "... src/parse.s"
+	@echo "... src/tools.o"
+	@echo "... src/tools.i"
+	@echo "... src/tools.s"
+	@echo "... src/valid.o"
+	@echo "... src/valid.i"
+	@echo "... src/valid.s"
 .PHONY : help
 
 

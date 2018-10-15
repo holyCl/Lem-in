@@ -6,7 +6,7 @@
 #    By: ivoloshi <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/23 17:45:08 by ivoloshi          #+#    #+#              #
-#    Updated: 2018/07/21 07:25:07 by ivoloshi         ###   ########.fr        #
+#    Updated: 2018/10/12 15:51:18 by ivoloshi         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -27,7 +27,14 @@ LIB_DIR :=		./libftprintf/
 # need to add all c files by name
 #
 
-SRC :=			main.c \
+SRC :=			error_manager.c\
+				main.c \
+				add_links.c \
+				add_rooms.c \
+				create_node.c \
+				parse.c \
+				tools.c \
+				valid.c \
 
 # project object files
 
