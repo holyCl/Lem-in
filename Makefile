@@ -6,7 +6,7 @@
 #    By: ivoloshi <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/23 17:45:08 by ivoloshi          #+#    #+#              #
-#    Updated: 2018/10/12 15:51:18 by ivoloshi         ###   ########.fr        #
+#    Updated: 2018/10/16 18:41:09 by ivoloshi         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -35,6 +35,7 @@ SRC :=			error_manager.c\
 				parse.c \
 				tools.c \
 				valid.c \
+				ants_rooms_links.c\
 
 # project object files
 
